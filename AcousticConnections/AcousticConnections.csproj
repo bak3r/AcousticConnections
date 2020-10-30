@@ -5,6 +5,13 @@
     <Authors>Ales Tepina</Authors>
     <Description>Used to connect to Acoustic (previously known as IBM's WatsonCampaignAutomation / Silverpop) REST api</Description>
     <PackageTags>Acoustic Silverpop WCA WatsonCampaignAutomation</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/bak3r/AcousticConnections</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bak3r/AcousticConnections</RepositoryUrl>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
 </Project>
