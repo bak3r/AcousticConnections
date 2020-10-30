@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Ales Tepina</Authors>
+    <Description>Used to connect to Acoustic (previously known as IBM's WatsonCampaignAutomation / Silverpop) REST api</Description>
+    <PackageTags>Acoustic Silverpop WCA WatsonCampaignAutomation</PackageTags>
+  </PropertyGroup>
+
+</Project>
