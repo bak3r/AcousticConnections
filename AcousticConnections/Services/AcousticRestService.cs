@@ -53,7 +53,7 @@ namespace AcousticConnections.Services
         {
             try
             {
-                var webRequest = (HttpWebRequest)WebRequest.Create("https://api-campaign-us-4.goacoustic.com/oauth/token");
+                var webRequest = (HttpWebRequest)WebRequest.Create(_configuration.LoginRequestUrl);
                 var postData = string.Format(
                     "grant_type=refresh_token&client_id={0}&client_secret={1}&refresh_token={2}",
                     _clientId, _clientSecret, _refreshToken);
