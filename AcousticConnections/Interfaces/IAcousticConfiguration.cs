@@ -31,17 +31,17 @@ namespace AcousticConnections.Interfaces
         string LoginRequestUrl { get; }
 
         /// <summary>
-        /// This is the ID you get when you setup Application account access in Acoustic
+        /// This is the ClientId you get when you setup Application account access in Acoustic
         /// </summary>
         string ClientId { get; }
 
         /// <summary>
-        /// This is the ID you get when you setup Application account access in Acoustic
+        /// This is the ClientSecret you get when you setup Application account access in Acoustic
         /// </summary>
         string ClientSecret { get; }
 
         /// <summary>
-        /// This is the ID you get when you setup Application account access in Acoustic
+        /// This is the RefreshToken you get when you setup Application account access in Acoustic
         /// </summary>
         string RefreshToken { get; }
     }

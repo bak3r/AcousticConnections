@@ -10,7 +10,7 @@
         CreateTable = 6,
         GetJobStatus = 7,
         ExportList = 8,
-        GetSendMailingsForOrg = 9,
+        GetSentMailingsForOrg = 9,
         GetAggregateTrackingForMailing = 10,
         RemoveRecipient = 11,
         DeleteRelationalTableData = 12,
